@@ -36,6 +36,20 @@ else:
 	print("z is the greatest")
 print("Done with comparison")
 
+# To show that nested conditionals execute iff the outside conditional is true 
+a = float(input("give a: "))
+b = float(input("give b: "))
+if a == b:
+	print("a and b are equal")
+	if b!=0:
+		print('therefore, a/b is: ',a/b)
+	else:
+		print('b is zero')
+elif a<b:
+	print("a is lower")
+else:
+	print("b is lower")
+print("thanks!")
 
   
   
